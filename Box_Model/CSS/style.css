@@ -1,0 +1,52 @@
+body {
+    background-color: lightblue;
+  }
+
+  
+   #Intro {
+    background-color: darkorange;
+    padding: 60px;
+    height: 30vh;
+    font-size: 12px;
+    
+
+    }
+
+
+  #Content {
+    background-color: rgb(34, 143, 186);
+    margin-top:50px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 80px;
+    text-align: center;
+  }
+
+  #main {
+    border: 1px solid rgb(215, 241, 15);
+    padding: 8px;
+  }
+  
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #29939ba4;
+  }
+
+  h3 {
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    padding:6px;
+    margin-top: 80px ;
+    margin-bottom: 50px;
+    background-color: rgb(29, 227, 227);
+  }
+  
+  .info {
+ 
+    border: 1px solid rgb(215, 241, 15);
+    padding: 8px;
+    background-color: bisque;
+
+  }
+  
