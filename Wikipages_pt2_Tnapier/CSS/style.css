@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(21, 124, 159);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  
+    .info {
+    height: 10vh;
+    font-size: 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+    }
+
+
+  h2 {
+    background-color: rgb(42, 114, 143);
+    color: aliceblue;
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 80px;
+    text-align: center;
+    ;
+  }
+
+  .list {
+    text-align: center;
+    
+    }
+  
+
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffffa4;
+    font-size: 40px;
+  }
+
+  h3 {
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    padding:6px;
+    margin-top: 80px ;
+    margin-bottom: 50px;
+    background-color: rgb(78, 255, 255);
+  }
+  
+  .info {
+ 
+    border: 3px solid rgb(147, 163, 152);
+    padding: 10px;
+    background-color: rgb(255, 255, 255)
+
+  }
+
+  .cutedog{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+ }
+   
+    
+    
+  .pub{
+
+    float: right;
+
+ }
+
