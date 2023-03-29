@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(24, 198, 137);
+}
+
+ul{
+
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    gap: 20px;
+    padding: 10px;
+}
+
+ul a {
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+ul a:hover {
+
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav {
+
+    background-color: black;
+}
+
+#home {
+
+    margin-right: auto;
+}
