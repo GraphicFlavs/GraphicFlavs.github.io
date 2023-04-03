@@ -3,8 +3,8 @@ body {
     background-color: rgb(58, 177, 179);
 }
 body, ul {
-     font-family:
-     margin: 0;
+     margin: 0px;
+     
 }
 
 ul {
@@ -154,13 +154,5 @@ opacity: 1;
   text-align: center;
   color: rgb(112, 85, 7);
   
-
-}
-
-.video {
- 
-  
-
-
 
 }
