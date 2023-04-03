@@ -71,6 +71,9 @@ opacity: 1;
     position: sticky;
     top: 0;
     background-color: rgb(2, 2, 2);
+    width: 1920px;
+    margin: 5px;
+    align-content: center;
     
   }
 
@@ -86,7 +89,7 @@ opacity: 1;
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
-  justify-content: center;
+  
 }
 
 #fruitjuice {
@@ -156,3 +159,4 @@ opacity: 1;
   
 
 }
+
