@@ -160,3 +160,20 @@ opacity: 1;
 
 }
 
+#footer {
+  text-align:center;
+  padding: 5px;
+  background-color: #1ba2a2;
+  color: #000;
+}
+
+.topnav {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: rgb(2, 2, 2);
+  width: 1920px;
+  margin: 5px;
+  align-content: center;
+  
+}
