@@ -50,7 +50,7 @@ opacity: 1;
 
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #000000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -75,20 +75,10 @@ opacity: 1;
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    background-color: rgb(2, 2, 2);
     width: 1920px;
     margin: 5px;
     align-content: center;
-    
-  }
-
-  .topnav {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    background-color: rgb(2, 2, 2);
-    margin: 5px;
-    align-content: center;
+    background-color: rgb(255, 250, 250);
     
   }
 
@@ -217,3 +207,16 @@ html {
   background-color: #0506064a;
 }
 
+#phone {
+
+
+margin-left: 1500px;
+
+}
+
+.location {
+
+
+  margin-left: 1100px;
+  
+  }
