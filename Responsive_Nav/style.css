@@ -13,7 +13,7 @@ body, ul {
 
 ul {
  display: flex;
- gap: 10px;
+ gap: 25px;
  padding: 10px;
  align-items: baseline;
 
@@ -24,14 +24,12 @@ ul li {
     list-style: none;
 }
 
-ul li a {
-color: #ad3636;
-}
 
 .dropdown_menu {
 background-color: rgb(32, 121, 137);
 position: absolute;
 opacity: 0;
+margin-top: 35px;
 flex-direction: column;
 display: flex;
 border: none;
@@ -44,7 +42,6 @@ width: 100px;
 
 opacity: 1;
 display: block;
-
 }
 
 
@@ -223,17 +220,6 @@ html {
   background-color: #0506064a;
 }
 
-#phone {
-
-margin-left: 1500px;
-
-}
-
-.location {
-
-margin-left: 1100px;
-  
-  }
 
   .chill {
     text-align: center;
@@ -244,3 +230,41 @@ margin-left: 1100px;
     background-color: #000000;
     padding-bottom: 30px;
   }
+
+  .berries {
+    float: left;
+    width: 400px;
+    height: 400px;
+    padding-right: 10px;
+    
+  }
+
+.about {
+text-align: center;
+
+}
+
+h5 {
+text-align: center;
+letter-spacing: 5px;
+margin-top: 10px;
+margin-right: 0px;
+margin-bottom: 10px;
+margin-left: 0px;
+}
+
+.menu {
+
+  text-align: center;
+}
+
+.pineapple {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+ 
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
