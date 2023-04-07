@@ -9,6 +9,7 @@ body, ul {
      
 }
 
+
   /* Dropdown Menu */
 
 ul {
@@ -87,6 +88,12 @@ display: block;
     
   }
 
+  .Vheader {
+    text-align: center;
+    margin-top: 0px;
+    padding-bottom: 40px;
+    background-color: rgb(254, 243, 86);
+  }
 
 
 /* Video */
@@ -233,8 +240,8 @@ html {
 
   .berries {
     float: left;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     padding-right: 10px;
     
   }
@@ -268,11 +275,13 @@ margin-left: 0px;
 
 
 #contact {
-  padding-top: 64px!important;
+  margin-bottom: 100px;
+  padding-top:64px!important;
   padding-bottom: 64px!important;
   display: block;
   background-color: rgb(0, 0, 0);
   color: #98a599;
+  text-align: center;
 }
 
 
@@ -286,6 +295,7 @@ margin-left: 0px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  justify-content: center;
 }
 
 
@@ -301,7 +311,15 @@ margin-left: 0px;
     cursor: pointer;
   }
 
+@media screen and (max-width: 768px) {
+  #contact {
+    width: 100%;
+    display: block;
+    
+  }
+  
+}
 
 .send[type=submit]:hover {
-  background-color: blanchedalmond ;
+  background-color: rgb(58, 177, 179);
 }
