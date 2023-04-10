@@ -55,23 +55,22 @@ main {
 
 
 .gender2 {
-  
   background-color: #ffffff;
   color: rgb(114, 121, 121);
-  padding: 10px 12px;
+  padding: 10px 5px;
   border-radius: 4px;
-  box-sizing: border-box;
   margin: 2px;
+
+
+
 
 }
 
 .field[type=text], select {
-  width: 25%;
+  width: 28%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
   box-sizing: border-box;
   justify-content: center;
 }
@@ -81,8 +80,6 @@ main {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
   box-sizing: border-box;
   
   
@@ -92,22 +89,32 @@ main {
   width: 61%;
   padding: 12px 20px;
   display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
   box-sizing: border-box;
   
   
 }
 
 
-#date[type=text], select {
-  width: 20%;
+.pwinfo[type=text], select {
+  width: 61%;
   padding: 12px 20px;
   display: inline-block;
+  box-sizing: border-box;
+  margin-top:5px ;
+  
+  
+}
+
+#date[type=text], select {
+  width: 20%;
+  padding: 12px 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  background-color: rgb(130, 16, 16);
+  background-color: rgb(2, 2, 2);
+  color: #1877f2;
+  margin-top: 0px;
+  margin-bottom:0px ;
 }
   
   
@@ -124,6 +131,18 @@ main {
   }
 
 
+  .Gday {
+    margin-top: 10px ;
+    padding-right: 45%;
+    margin-bottom: 2px ;
+  }
+
+
+  .gender3 {
+    margin-top: 10px ;
+    padding-right: 45%;
+  }
+
   button {
     width: 50%;
     background-color: #080808;
@@ -136,6 +155,14 @@ main {
   }
 
 h6 {
-
 margin-right: 55%;
+}
+
+
+input:valid {
+  border: 2px green solid;
+}
+
+input:invalid {
+  border: 2px rgb(244, 8, 8) solid;
 }
