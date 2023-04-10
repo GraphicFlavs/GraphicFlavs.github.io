@@ -73,6 +73,7 @@ main {
   display: inline-block;
   box-sizing: border-box;
   justify-content: center;
+  border-radius: 4px;
 }
 
 .lastname[type=text], select {
@@ -81,6 +82,7 @@ main {
   margin: 8px 0;
   display: inline-block;
   box-sizing: border-box;
+  border-radius: 4px;
   
   
 }
@@ -90,6 +92,7 @@ main {
   padding: 12px 20px;
   display: inline-block;
   box-sizing: border-box;
+  border-radius: 4px;
   
   
 }
@@ -101,6 +104,7 @@ main {
   display: inline-block;
   box-sizing: border-box;
   margin-top:5px ;
+  border-radius: 4px;
   
   
 }
