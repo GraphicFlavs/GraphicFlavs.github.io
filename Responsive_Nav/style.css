@@ -91,7 +91,8 @@ display: block;
   .Vheader {
     text-align: center;
     margin-top: 0px;
-    padding-bottom: 40px;
+    padding: 20px;
+    margin-bottom: 0px;
     background-color: rgb(254, 243, 86);
   }
 
@@ -322,4 +323,12 @@ margin-left: 0px;
 
 .send[type=submit]:hover {
   background-color: rgb(58, 177, 179);
+}
+
+.Virgin {
+width: 100%;
+
+
+
+
 }
