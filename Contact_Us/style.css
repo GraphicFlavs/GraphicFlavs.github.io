@@ -300,7 +300,6 @@ text-align: left;
   width: 100%;
   padding: 14px 4px;
   margin: 8px 0;
-  border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   justify-content: center;
@@ -337,3 +336,11 @@ width: 100%;
 }
 
 
+input:valid {
+  border: 2px rgb(17, 105, 17) solid;
+}
+
+input:invalid {
+  border: 2px rgb(244, 8, 8) solid;
+  
+}

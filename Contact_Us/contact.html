@@ -68,10 +68,11 @@
         
         <div class="form">
         <form action="https://getform.io/f/aece3c75-87ff-4d14-b684-c803b86a6ac3" method="post">
-          <input class="field" type="text" placeholder="Name" required name="Name">
-          <input class="field" type="text" placeholder="How many people" required name="People">
-          <input class="field" type="text" placeholder="Date and time" required name="date">
-          <input class="field" type="text" placeholder="Message \ Special requirements" required name="Message" id="Mess">
+          <input class="field" type="text" placeholder="Name" required name="Name" minlength="1" maxlength="30">
+          <input class="field" type="text" placeholder="How many people" required name="People" minlength="1" maxlength="30">
+          <input class="field" type="text" placeholder="Email" required name="Email" minlength="1" maxlength="30">
+          <input class="field" type="text" placeholder="Date and time" required name="date" minlength="1" maxlength="30">
+          <input class="field" type="text" placeholder="Message \ Special requirements" required name="Message" id="Mess" minlength="1" maxlength="30">
           <button class="send" type="submit">SEND MESSAGE</button>
         </form>
       </div><br>
