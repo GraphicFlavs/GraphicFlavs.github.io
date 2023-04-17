@@ -100,6 +100,8 @@ nav a:hover {
   font-size: 4em;
   font-weight: 900;
   margin-bottom:0;
+  margin-right: 50px;
+
 }
 .site_quote {
   font-size: 1em;
@@ -217,4 +219,46 @@ footer h4 {
   margin-bottom: 0px;
   font-family: "Bebas Neue";
   font-weight: bold;
+}
+
+#gallery {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 0px;
+  padding: 0px;
+  
+}
+
+.Cardbutton {
+
+  background-color: #192e55;
+  color: #f8feff;
+}
+
+#Milly1 {
+  justify-content: center;
+  width: 100%;
+  
+}
+
+.container {
+  background-color: #192e55;
+  color: #f8feff;
+
+}
+
+.card-title {
+  color: #000000;
+
+}
+
+.button {
+  background-color: #2e4c83;
+  color: #aa1515;
+  padding: 5px;
+  border: 2px solid rgb(149, 144, 144);
+  border-radius: 2px;
+  align-items: center;
+
 }
