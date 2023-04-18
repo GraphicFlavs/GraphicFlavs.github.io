@@ -7,7 +7,7 @@
 
 /* typography: */
 body, main, footer, nav, header {
-  font-family: "Open Sans";
+  font-family: "Montserrat";
 }
 a {
   color:#192e55;
@@ -32,7 +32,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding:50px;
-  background-color:#f8feff;
+  background-color:#2e6a74;
   color:#2e4c83;
 }
 .header-top{
@@ -96,7 +96,7 @@ nav a:hover {
   width:100%;
 }
 .site_title {
-  font-family: "Bebas Neue";
+  font-family: "Lobster";
   font-size: 4em;
   font-weight: 900;
   margin-bottom:0;
@@ -133,7 +133,7 @@ main {
 }
 .content-header {
   font-size: 42pt;
-  font-family: "Bebas Neue";
+  font-family: "Lobster";
   margin:0;
   text-align: center;
   padding:25px;
@@ -146,7 +146,7 @@ main {
   text-align: center;
   margin-bottom:25px;
   padding-bottom:25px;
-  font-family: "Bebas Neue", "Times New Roman", sans-serif;
+  font-family: "Montserrat";
   font-weight: normal;
   font-style: italic;
 }
@@ -169,7 +169,7 @@ footer {
   display:flex;
 }
 footer h4, footer h5, footer h6 {
-  font-family: "Bebas Neue";
+  font-family: "Montserrat";
   margin:0;
 
 }
@@ -211,13 +211,13 @@ footer h4 {
 /* Special typography */
 
 .dropcap {
+  font-family: "Montserrat", sans-serif;
   float:left;
   font-size:42pt;
   margin-top: -5px;
   line-height: 0.65;
   padding-bottom: 0px;
   margin-bottom: 0px;
-  font-family: "Bebas Neue";
   font-weight: bold;
 }
 
@@ -243,7 +243,7 @@ footer h4 {
 }
 
 .container {
-  background-color: #192e55;
+  background: linear-gradient(#f69d3c, #3f87a6);
   color: #f8feff;
 
 }
@@ -254,12 +254,32 @@ footer h4 {
 }
 
 .button {
-  background-color: #2e4c83;
-  color: #aa1515;
+  background-color: #090908;
+  color: #ffffff;
   padding: 5px;
-  border: 2px solid rgb(149, 144, 144);
+  border: 2px solid #e1a177;
   border-radius: 2px;
-  margin-left: 62px;
-  margin-right: 0px;
+  display: flex;
+  justify-content: center;
 
 }
+
+h1 {
+  color: #576a6d;
+ 
+}
+
+#logo {
+  width: 200px;
+ 
+}
+
+.carousel_slide {
+height: 60vh;
+}
+
+.carousel-item {
+  height: 100vh;
+  object-fit: cover;
+    
+  }
