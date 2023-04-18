@@ -274,12 +274,8 @@ h1 {
  
 }
 
-.carousel_slide {
-height: 60vh;
-}
 
 .carousel-item {
-  height: 100vh;
   object-fit: cover;
     
   }
