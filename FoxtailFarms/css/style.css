@@ -234,6 +234,7 @@ footer h4 {
   grid-template-columns: 1fr 1fr 1fr;
   padding: 4px;
   gap: 8px;
+  justify-content: center;
 
 }
 
@@ -256,6 +257,11 @@ footer h4 {
 
 .card-title {
   color: #000000;
+
+}
+
+.card {
+  width: 33%;
 
 }
 
