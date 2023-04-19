@@ -32,7 +32,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding:50px;
-  background-color:#2e6a74;
+  background-color: #ffffff;
   color:#2e4c83;
 }
 .header-top{
@@ -154,6 +154,10 @@ main {
   padding:20px;
 }
 
+.content-container {
+background-color: #090908;
+
+}
 
 /* Footer ~~~~~~~ */
 .footer-hat {
@@ -225,8 +229,9 @@ footer h4 {
 
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-left: 0px;
-  padding: 0px;
+  padding: 4px;
+  gap: 8px;
+  
   
 }
 
@@ -236,7 +241,7 @@ footer h4 {
   color: #f8feff;
 }
 
-#Milly1 {
+#bali {
   justify-content: center;
   width: 100%;
   
@@ -244,7 +249,6 @@ footer h4 {
 
 .container {
   background: linear-gradient(#f69d3c, #3f87a6);
-  color: #f8feff;
 
 }
 
