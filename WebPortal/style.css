@@ -163,17 +163,14 @@ background-color: #0d0d0b;
 }
 
 /* Footer ~~~~~~~ */
-.footer-hat {
-  height:30px;
-  background-color: #f8feff;
-  border-top:2px solid #e1a177;
-}
+
 footer {
-  background-color: #e1a177;
+  background-color: #171514;
   padding:25px;
   border-top:2px dashed #040404;
   box-sizing: border-box;
   display:flex;
+  width: 100%;
 }
 footer h4, footer h5, footer h6 {
   font-family: "Montserrat";
@@ -228,15 +225,6 @@ footer h4 {
   font-weight: bold;
 }
 
-#gallery {
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 4px;
-  gap: 8px;
-
-}
-
 .Cardbutton {
 
   background-color: #192e55;
@@ -249,15 +237,13 @@ footer h4 {
   
 }
 
-.container {
-  background: linear-gradient(#f69d3c, #3f87a6);
-
-}
 
 .card-title {
   color: #000000;
 
 }
+
+
 
 .button {
   background-color: #090908;
@@ -265,8 +251,7 @@ footer h4 {
   padding: 5px;
   border: 2px solid #e1a177;
   border-radius: 2px;
-  display: flex;
-  justify-content: center;
+  
 
 }
 

@@ -234,7 +234,11 @@ footer h4 {
   grid-template-columns: 1fr 1fr 1fr;
   padding: 4px;
   gap: 8px;
+  width: fit-content;
   justify-content: center;
+
+  
+  
 
 }
 
@@ -260,10 +264,6 @@ footer h4 {
 
 }
 
-.card {
-  width: 33%;
-
-}
 
 .button {
   background-color: #090908;
