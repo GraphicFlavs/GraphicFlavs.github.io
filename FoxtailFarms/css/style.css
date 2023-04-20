@@ -104,6 +104,9 @@ nav a:hover {
   margin-right: 50px;
   color: #000000;
   padding-left: 70px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 
 }
 .site_quote {
@@ -228,8 +231,8 @@ footer h4 {
   font-weight: bold;
 }
 
-#gallery {
 
+#gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 4px;
@@ -237,9 +240,14 @@ footer h4 {
   width: fit-content;
   justify-content: center;
 
-  
-  
+}
 
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .Cardbutton {
@@ -282,7 +290,11 @@ h1 {
 }
 
 #logo {
+  float: left;
   width: 200px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
  
 }
 
