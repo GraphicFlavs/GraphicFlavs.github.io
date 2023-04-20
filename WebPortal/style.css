@@ -10,7 +10,11 @@ body, main, footer, nav, header {
   font-family: "Montserrat";
  }
 
- body {background: linear-gradient(180deg, #000000 0%, #000000 41%, #d80c0c 75%);
+ body {
+    background-image: url(../WebPortal/assets/dopeacid.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
  }
 
 a {
@@ -100,13 +104,15 @@ body {
      color: white;
    }
    
+   .buttons2 {
+    border: 2px solid salmon;
+  }
+  
  
    .topnav {
     
      background-color: rgb(255, 255, 255);
-     
-     
-   }
+     }
 
 /* The hero image */
 .logo {

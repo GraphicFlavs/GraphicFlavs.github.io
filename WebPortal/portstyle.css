@@ -10,16 +10,19 @@ body, main, footer, nav, header {
   font-family: "Montserrat";
  }
 
- body {background-color: #04AA6D;
+ body {
+  background-image: url(../WebPortal/assets/dopeacid.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
  }
 
 a {
   color:#e1a177;
 }
+
 .btn {
   background-color: #f8feff;
-  border:2px solid #e1a177;
-  border-radius: 0px;
+  border:2px solid #000000;
 }
 
 /* Header & Navbar: */
@@ -44,8 +47,9 @@ body {
  
      list-style: none;
  }
- 
- 
+  
+
+
  .dropdown_menu {
  background-color: rgb(32, 121, 137);
  position: absolute;
@@ -68,6 +72,10 @@ body {
  display: block;
  }
  
+ .buttons2 {
+  border: 2px solid salmon;
+}
+
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .topnav a {
@@ -96,7 +104,7 @@ body {
    }
  
    .topnav a.active {
-     background-color: #04AA6D;
+     background-color: #1bce8c;
      color: white;
    }
    
@@ -104,9 +112,8 @@ body {
    .topnav {
     
      background-color: rgb(255, 255, 255);
-     
-     
-   }
+    
+     }
 
 /* The hero image */
 .logo {
@@ -263,13 +270,14 @@ footer h4 {
 }
 
 h1 {
-  color: #576a6d;
+  font-family: 'Lobster';
   padding: 12px 16px;
   background-color: #ddd;
   text-align: center;
   width: 100%;
   margin-left: 0px;
- 
+  text-shadow:  2px 2px 4px rgb(0, 0, 0);
+  color: whitesmoke ;
 }
 
 .carousel-item {
@@ -288,9 +296,7 @@ h1 {
       width: 100%;
      }
 
-     .Vheader {
-      color: #04AA6D;
-     }
+  
 
 
  
