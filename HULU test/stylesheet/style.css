@@ -157,6 +157,51 @@ main {
 h6 {
 font-size: large;
 text-align: center;
+color: #1ce783;
+}
+
+h2 {
+  font-size: medium;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  }
+
+  .trio_pic {
+ float: left;
+ width: 100%;
+ margin: 0;
+
+}
+
+.GET3 {
+  float: right;
+  width: 150px;
+  margin: 0;
+}
+ 
+
+.flex-container {
+  display: flex;
+  background: linear-gradient(270.19deg,rgba(4,4,4,.7) .17%,rgba(4,4,4,.45) 85.02%,rgba(4,4,4,.3) 112.52%)!important;
+  justify-content: center;
+  
+  
+}
+
+.flex-container div {
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  justify-content: center;
+  
+}
+
+.flex-container2 {
+  display: flex;
+  margin: 3rem;
+  justify-content: center;
+  
 }
 
 

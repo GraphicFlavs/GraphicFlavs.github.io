@@ -14,9 +14,23 @@ body, main, footer, nav, header {
     background-image: url(../WebPortal/assets/dopeacid.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+  }
 
- }
 
+
+/* The hero image */
+.hero-image {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../WebPortal/assets/gf_WB.png");
+
+/* Set a specific height */
+height: 50vh;
+
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
 
 a {
   color:#e1a177;
