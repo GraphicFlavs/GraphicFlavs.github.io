@@ -1,25 +1,32 @@
-
-
 body {
   margin:0;
   font-family: "Helvetica", "Arial", sans-serif;
   background-color: #141414;
-  background-image: url(../images/DisneyBKG.jpeg);
+  background-image: url(../images/hulu-bg.jpeg);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 
-
-main {
-  display:grid;
-  grid-template-columns: 30% 40% 30%;
-}
-
-.logo {
-  font-family: "Klavika";
-  color:#1877f2;
-  font-size: 3em;
+#info {
   text-align: center;
-  margin-top:10%;
+  justify-content: center;
+  
+}
+
+h5 {
+color: #1ce783;
+
+
+}
+
+main h5 {
+  text-align: center;
+  
 }
 
 .form {
@@ -30,129 +37,98 @@ main {
   color: #444;
 }
 
-@media screen and (max-width: 1200px) {
-  main {
-      grid-template-columns: 20% 60% 20%;
-  }
+
+header {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+ 
 }
 
-@media screen and (max-width: 724px) {
-  main {
-      grid-template-columns: 10% 80% 10%;
-  }
-}
-
-
-#contact {
-  margin-bottom: 100px;
-  padding-top:64px!important;
-  padding-bottom: 64px!important;
-  display: block;
-  background-color: rgb(0, 0, 0);
-  color: #98a599;
+#Bundles {
+  align-self: center;
   text-align: center;
+
+ 
 }
 
-
-.gender2 {
-  background-color: #ffffff;
-  color: rgb(114, 121, 121);
-  padding: 10px 5px;
-  border-radius: 4px;
-  margin: 2px;
+#gallery {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: auto;
+ justify-content: center;
+ margin: 10vh;
+ background-color: #010101;
 }
 
-.field[type=text], select {
-  width: 28%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  box-sizing: border-box;
+#Bundles img {
+  height: 10vh;
+ 
+}
+
+main {
+
+  background-color: #010101;
+}
+
+#Hulu2 {
+width: 20%;
+margin-top: 4vh;
+}
+
+#banner {
+  text-align: center;
+  display: flex;
   justify-content: center;
-  border-radius: 4px;
+  align-items: center;
+  margin-top: auto;
+ 
 }
 
-.lastname[type=text], select {
-  width: 30%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  box-sizing: border-box;
-  border-radius: 4px;
+#Bundles #banner {
+  text-align: center;
   
-  
+ }
+ 
+ 
+#banner img {
+ height: 5vh;
+ 
 }
 
-.mobileinfo[type=text], select {
-  width: 61%;
-  padding: 12px 20px;
-  display: inline-block;
-  box-sizing: border-box;
-  border-radius: 4px;
-  
-  
-}
-
-
-.pwinfo[type=text], select {
-  width: 61%;
-  padding: 12px 20px;
-  display: inline-block;
-  box-sizing: border-box;
-  margin-top:5px ;
-  border-radius: 4px;
-  
-  
-}
-
-#date[type=text], select {
-  width: 20%;
-  padding: 12px 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  background-color: rgb(2, 2, 2);
-  color: #1877f2;
-  margin-top: 0px;
-  margin-bottom:0px ;
-}
-  
-  
-
-.send {
-    width: 50%;
-    background-color: #080808;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: 2px solid rgb(207, 180, 73);
-    border-radius: 4px;
+#Login {
+    background: none;
+    color: rgb(147, 141, 141);
+    border: none;
     cursor: pointer;
-  }
-
-
-  .Gday {
-    margin-top: 10px ;
-    padding-right: 45%;
-    margin-bottom: 2px ;
-  }
-
-
-  .gender3 {
-    margin-top: 10px ;
-    padding-right: 45%;
   }
 
   button {
     width: 50%;
-    background-color: #080808;
+    background-color: #1ce783;
     color: white;
     padding: 14px 20px;
     margin: 20px 0;
-    border: 2px solid rgb(207, 180, 73);
+    border: none;
     border-radius: 4px;
     cursor: pointer;
   }
+
+  #GET3 {
+    width: 70%;
+    background-color: #010101;
+    color: white;
+    margin: 20px;
+    margin-top: 10vh;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+  }
+
+#terms {
+    text-align: center;
+    color: #ffffff;
+    }
 
 h6 {
 font-size: large;
@@ -167,43 +143,16 @@ h2 {
   margin: 0;
   }
 
-  .trio_pic {
- float: left;
- width: 100%;
- margin: 0;
+.Trio {
 
-}
-
-.GET3 {
-  float: right;
-  width: 150px;
-  margin: 0;
+  margin: 5vh;
 }
  
 
-.flex-container {
-  display: flex;
-  background: linear-gradient(270.19deg,rgba(4,4,4,.7) .17%,rgba(4,4,4,.45) 85.02%,rgba(4,4,4,.3) 112.52%)!important;
-  justify-content: center;
-  
+.hulu_logo {
+width: 75px;
   
 }
-
-.flex-container div {
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-  justify-content: center;
-  
-}
-
-.flex-container2 {
-  display: flex;
-  margin: 3rem;
-  justify-content: center;
-  
-}
-
 
 input:valid {
   border: 2px green solid;
