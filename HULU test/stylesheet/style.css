@@ -87,8 +87,10 @@ height: 30vh;
 }
 
 main {
-
 background-color: #010101;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 #Hulu2 {
@@ -194,12 +196,36 @@ h2 {
       margin: 0;
       }
   
+footer {
+display: flex;
+flex-direction: column;
+background-color: #020202;
+padding: 50px;
 
+}
 
 .hulu_logo {
 width: 75px;
   
 }
+
+.links a {
+  color: #ffffff;
+
+}
+
+.links {
+color: #1ce783;
+  align-self: center;
+  justify-content: center;
+  
+}
+
+#hulu_footer {
+  align-self: center;
+  width: 75px;
+    
+  }
 
 input:valid {
   border: 2px green solid;
