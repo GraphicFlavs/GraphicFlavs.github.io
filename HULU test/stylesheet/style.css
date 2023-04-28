@@ -1,8 +1,22 @@
 body {
   margin:0;
-  font-family: "Helvetica", "Arial", sans-serif;
-  background-color: #141414;
   background-image: url(../images/hulu-bg.jpeg);
+}
+
+/* FONTS */
+@font-face {
+  font-family: GraphikSemiBold;
+  src: url("../Graphik-Font-Family/GraphikSemiboldItalic.otf");
+}
+
+
+@font-face {
+  font-family: GraphikLight;
+  src: url("../Graphik-Font-Family/GraphikLight.otf");
+}
+
+header {
+  background-image: linear-gradient(to right, rgba(255,255,255,0.05), rgba(0,0,0,0.664));
 }
 
 nav {
@@ -19,7 +33,9 @@ nav {
 }
 
 h5 {
+font-family: GraphikSemiBold;
 color: #1ce783;
+font-size: medium;
 
 
 }
@@ -39,6 +55,7 @@ main h5 {
 
 
 header {
+  font-family: GraphikLight;
   display: flex;
   flex-direction: column;
   color: #ffffff;
@@ -48,19 +65,21 @@ header {
 #Bundles {
   align-self: center;
   text-align: center;
+} 
 
- 
+
+
+#gallery img {
+height: 30vh;
 }
 
 #gallery {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  margin-top: auto;
- justify-content: center;
- margin: 10vh;
- background-color: #010101;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
 }
+
+
 
 #Bundles img {
   height: 10vh;
@@ -69,12 +88,26 @@ header {
 
 main {
 
-  background-color: #010101;
+background-color: #010101;
 }
 
 #Hulu2 {
-width: 20%;
 margin-top: 4vh;
+margin-bottom: 0;
+
+
+}
+
+#email_button {
+  padding: 14px 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+  border: none;
+}
+
+form button:hover {
+  opacity: 0.7;
+
 }
 
 #banner {
@@ -83,8 +116,8 @@ margin-top: 4vh;
   justify-content: center;
   align-items: center;
   margin-top: auto;
- 
-}
+  background-image: linear-gradient(to right, rgba(255,255,255,0.05), rgba(0,0,0,0.664));
+ }
 
 #Bundles #banner {
   text-align: center;
@@ -98,10 +131,13 @@ margin-top: 4vh;
 }
 
 #Login {
+    font-size: 1rem;
     background: none;
     color: rgb(147, 141, 141);
     border: none;
     cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
   }
 
   button {
@@ -137,17 +173,28 @@ color: #1ce783;
 }
 
 h2 {
-  font-size: medium;
+  font-family: GraphikSemiBold;
+  font-size: large;
   text-align: center;
   color: #ffffff;
   margin: 0;
   }
 
-.Trio {
+  h4 {
+    text-align: center;
+    color: #1ce783;
+    margin: 0;
+    }
 
-  margin: 5vh;
-}
- 
+    h1 {
+      font-family: GraphikSemiBold;
+      font-size: x-large;
+      text-align: center;
+      color: #ffffff;
+      margin: 0;
+      }
+  
+
 
 .hulu_logo {
 width: 75px;
@@ -161,3 +208,13 @@ input:valid {
 input:invalid {
   border: 2px rgb(244, 8, 8) solid;
 }
+
+  
+@media screen and (max-width: 768px) {
+  #gallery {
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto;
+  
+    }
+    
+  }

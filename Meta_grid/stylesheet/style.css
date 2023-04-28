@@ -61,7 +61,7 @@ object-fit: cover;
 }
 
 #gallery {
-
+  row-gap: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
