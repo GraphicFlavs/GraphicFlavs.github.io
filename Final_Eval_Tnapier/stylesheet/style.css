@@ -66,7 +66,7 @@ header {
   text-align: center;
 } 
 
-
+/* GALLERY */
 
 #gallery img {
 height: 40vh;
@@ -91,7 +91,7 @@ flex-direction: column;
 align-items: center;
 }
 
-
+/* GALLERY END */
 
 #email_button {
   padding: 14px 20px;
@@ -121,6 +121,7 @@ form button:hover {
  height: 5vh;
  
 }
+
 
 #Login {
     font-family: AvenirLTStd-Roman;
