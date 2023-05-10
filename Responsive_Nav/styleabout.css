@@ -1,6 +1,6 @@
 body {
 
-    background-color: rgb(58, 177, 179);
+  background-image: linear-gradient(to left, rgb(2, 105, 156), rgba(206, 55, 188, 0.924));
 }
 body, ul {
      margin: 0px;
@@ -288,11 +288,11 @@ margin-left: 0px;
 
 
 #contact {
-  margin-bottom: 100px;
-  padding-top:64px!important;
+  margin-top: 100px;
+  padding-top:80px!important;
   padding-bottom: 64px!important;
   display: block;
-  background-color: rgb(0, 0, 0);
+  background-image: linear-gradient(to right, rgba(10, 10, 10, 0.499), rgb(0, 0, 0));
   color: #98a599;
   text-align: center;
 }
