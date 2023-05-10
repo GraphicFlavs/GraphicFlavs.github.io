@@ -116,6 +116,13 @@ display: block;
     background-color: rgb(254, 243, 86);
   }
 
+  #logo {
+    float: left;
+    width: 40px;
+    align-items: baseline;
+    
+  }
+
 
 /* Video */
 
