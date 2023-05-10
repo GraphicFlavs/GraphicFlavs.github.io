@@ -91,6 +91,13 @@ display: block;
     
   }
 
+  #logo {
+    float: left;
+    width: 40px;
+    align-items: baseline;
+  
+  }
+
   .crafted {
     text-align: center;
     width: 100%;
