@@ -80,6 +80,7 @@ body {
  
  
  }
+
  
  .dropdown:hover .dropdown_menu {
  
@@ -136,6 +137,20 @@ body {
   
 }
 
+.digiPic {
+height: 80%;
+
+}
+
+.row {
+margin-top: 10px;
+}
+
+.container .container {
+  border: none;
+  background: none;
+  width: auto;
+}
 
 /* MAIN Content */
 main {
