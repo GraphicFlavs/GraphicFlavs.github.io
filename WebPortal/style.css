@@ -106,6 +106,8 @@
 
 /* ANIMISTA JELLO END */
 
+
+
 /*~~~~~~ MAIN BRAND STYLE ~~~~~~~~*/
 
 /* typography: */
@@ -286,6 +288,7 @@ padding: 40px;
 
 }
 
+
 .greetings {
   text-align: justify;
   color: #ddd;
@@ -353,10 +356,8 @@ footer h4 {
 /* Special typography */
 
 .dropcap {
-  font-family: "Montserrat", sans-serif;
-  float:left;
+  font-family: sans-serif;
   font-size:42pt;
-  margin-top: -5px;
   line-height: 0.65;
   padding-bottom: 0px;
   margin-bottom: 0px;
@@ -481,14 +482,15 @@ img {
   margin: 0 auto;
 }
 .gallery {
-  border: 1px solid red;
+  border: 1px solid rgb(255, 255, 255);
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: space-between;
 }
 .gal-col {
-  border: 1px solid green;
+  background-color: rgba(19, 175, 218, 0.474);
+  border: 1px solid rgba(3, 122, 138, 0.611);
   width: calc(33% - 20px);
 }
 .gallery .gal-col img {
@@ -499,9 +501,9 @@ img {
 .linkbtn {
   -webkit-animation: jello-horizontal 0.9s both;
 	        animation: jello-horizontal 0.9s both;
-  border: 2px solid pink;
-  background-color: pink;
-  color: white;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.794);
+  color: rgb(0, 0, 0);
   padding: 1rem 0;
   width: 100%;
   display: block;
