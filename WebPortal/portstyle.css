@@ -51,7 +51,7 @@ body {
 
 
  .dropdown_menu {
- background-color: rgb(32, 121, 137);
+  background-image: linear-gradient(to left, rgb(4, 4, 4), rgba(197, 14, 14, 0.935));
  position: absolute;
  opacity: 0;
  margin-top: 60px;
@@ -72,9 +72,6 @@ body {
  display: block;
  }
  
- .buttons2 {
-  border: 2px solid salmon;
-}
 
 /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -98,10 +95,11 @@ body {
  
  /* Change the color of links on hover */
  
-   .topnav a:hover {
-     background-color: #ddd;
-     color: black;
-   }
+ .topnav a:hover {
+  background-color: rgba(193, 43, 43, 0.399);
+  color: rgb(196, 50, 50);
+}
+
  
    .topnav a.active {
      background-color: #1bce8c;
