@@ -292,9 +292,18 @@ padding: 40px;
 .greetings {
   text-align: justify;
   color: #ddd;
-  
-
 }
+
+.Pardon {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: red;
+  color: black;
+  padding: 15rem 0;
+  width: 100%;
+  display: block;
+  text-align: center;
+    
+  }
 
 .BioPic {
   justify-content: center;
