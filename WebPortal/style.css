@@ -129,7 +129,7 @@ body, main, footer, nav, header {
 background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("../WebPortal/assets/Gf_WbOfficial.svg");
 
 /* Set a specific height */
-height: 50vh;
+height: 60vh;
 
 /* Position and center the image to scale nicely on all screens */
 background-position: center;
